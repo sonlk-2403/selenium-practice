@@ -26,8 +26,6 @@ public class VibloPageTestcases {
 
 	@BeforeSuite
 	public void initializeDriver() throws Exception {
-
-		// Create object of HomePage Class
 		vibloPage = new VibloPageObjects();
 	}
 	
